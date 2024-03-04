@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alert Message</title>
+    <link rel="stylesheet" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">	</script>
+	<script src="Script1.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form action="" id="form">
+            <h1>Login</h1>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" >
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+                <div class="error"></div>
+            </div>
+            <div id="container">
+                <div class="message">
+                    You are successful in logging in.</div>
+                <button class="yes">okay</button>
+            </div>
+            <input type="button" value="Log In" class="button" onclick="geeks();" />
+            <!-- <button type="submit">Signup</button> -->
+            <div class="sign-txt">You Not a member? <a href="signup.html">signup</a></div>
+        </form>
+    </div>
+</body>
+</html>

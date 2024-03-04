@@ -1,0 +1,119 @@
+/* Color for h1 tag */
+h1 {
+  color: green;
+}
+
+/* Designing dialog box */
+#container {
+  display: none;
+  background-color: rgb(44, 44, 42);
+  color: white;
+  position: absolute;
+  width: 350px;
+  border-radius: 5px;
+  left: 50%;
+  margin-left: -160px;
+  padding: 16px 8px 8px;
+  box-sizing: border-box;
+  top: 50%;
+  text-align: center;
+}
+
+/* Designing dialog box's okay button */
+#container .yes {
+  background-color: rgb(0, 255, 55);
+  display: inline-block;
+  border-radius: 5px;
+  border: 2px solid gray;
+  padding: 5px;
+  text-align: center;
+  width: 60px;
+  text-align: center;
+}
+
+/* Dialog box message decorating */
+#container .message {
+  text-align: left;
+  padding: 10px 30px;
+}
+body{
+  background: rgb(39, 195, 34);
+  background: linear-gradient(0deg, rgb(195, 39, 34) 0%, rgb(151, 153, 32) 86%);
+  background-attachment: fixed;
+  margin:0;
+  font-family: 'Poppins', sans-serif; 
+}
+#form{
+  width:400px;
+  margin:20vh auto 0 auto;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding:30px;
+}
+h1{
+  text-align: center;
+  color:#992020;
+}
+#form .button{
+  background-color: #209999;
+  color:white;
+  border: 1px solid #992089;
+  border-radius: 5px;
+  padding:10px;
+  margin:20px 0px;
+  cursor:pointer;
+  font-size:20px;
+  width:100%;
+}
+.input-group{
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.input-group input{
+  border-radius: 5px;
+  font-size:20px;
+  margin-top:5px;
+  padding:10px;
+  border:1px solid rgb(192, 195, 34) ;
+}
+.input-group input:focus{
+  outline:0;
+}
+.input-group .error{
+  color:rgb(242, 227, 18);
+  font-size:16px;
+  margin-top: 5px;
+}
+.input-group.success input{
+  border-color: #0cc425;
+}
+
+.input-group.error input{
+  border-color:rgb(206, 67, 67);
+}
+.sign-txt{
+  color: #232121;
+  text-align: center;
+
+}
+.sign-txt a{
+  text-decoration: none;
+  color: #0cc449;
+}
+.center1{
+  /* text-align: center; */
+  border: 2px solid #c40c8d;
+}
+.img{
+  border-radius: 50%;
+  height: 50px;
+}
+.nav-link, .space{
+  text-decoration: none;
+  color: #0c8ac4;
+}
+.space:hover{
+  text-decoration: none;
+  color: #990cc4;
+}
